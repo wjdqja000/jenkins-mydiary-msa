@@ -8,7 +8,6 @@ services:
    dockerfile: Dockerfile 
   container_name: rolling-front 
   restart: always 
-  depends_on: 
   ports: 
    - '3000:3000' 
   networks: 
