@@ -4,7 +4,6 @@ services:
  
  mydiary-front: 
   build:
-   context: ./my-diary-front
    dockerfile: Dockerfile 
   container_name: rolling-front 
   restart: always 
